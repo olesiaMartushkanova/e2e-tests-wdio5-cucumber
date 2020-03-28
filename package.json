@@ -1,0 +1,56 @@
+{
+  "name": "automation-wdio5-cucumber",
+  "version": "1.0.0",
+  "description": "wdio5 and cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "lint": "eslint src/**/*.ts --fix",
+    "report": "allure generate allure-results --clean && allure open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olesiaMartushkanova/automation-wdio5-cucumber.git"
+  },
+  "author": "olesia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olesiaMartushkanova/automation-wdio5-cucumber/issues"
+  },
+  "homepage": "https://github.com/olesiaMartushkanova/automation-wdio5-cucumber#readme",
+  "dependencies": {
+    "@types/cucumber": "^4.0.7",
+    "@typescript-eslint/parser": "^2.3.2",
+    "@wdio/cli": "^5.11.0",
+    "@wdio/config": "^5.11.0",
+    "@wdio/cucumber-framework": "^5.11.0",
+    "@wdio/local-runner": "^5.11.0",
+    "@wdio/selenium-standalone-service": "^5.13.2",
+    "@wdio/spec-reporter": "^5.11.0",
+    "@wdio/sync": "^5.13.2",
+    "eslint-plugin-wdio": "^5.7.8",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^5.13.2"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^5.14.4",
+    "allure-commandline": "^2.13.0",
+    "chai": "^4.0.1",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^75.1.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "forever": "^0.15.3",
+    "http-server": "^0.11.1",
+    "jest": "^24.9.0",
+    "npm-run-all": "^4.1.5",
+    "ts-node": "^8.3.0",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "^3.5.3",
+    "typescript-eslint": "0.0.1-alpha.0",
+    "wdio-chromedriver-service": "^5.0.2",
+    "wdio-selenium-standalone-service": "0.0.12"
+  }
+}

@@ -39,7 +39,7 @@
     "chai": "^4.0.1",
     "chai-webdriverio": "^1.0.0",
     "chromedriver": "^75.1.0",
-    "eslint": "^6.5.1",
+    "eslint": "^9.39.1",
     "eslint-config-airbnb-base": "^13.2.0",
     "eslint-plugin-import": "^2.18.2",
     "forever": "^0.15.3",
